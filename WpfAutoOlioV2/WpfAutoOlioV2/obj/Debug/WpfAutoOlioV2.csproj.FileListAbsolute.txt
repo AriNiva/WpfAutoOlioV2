@@ -1,0 +1,15 @@
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\bin\Debug\WpfAutoOlioV2.exe.config
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\bin\Debug\WpfAutoOlioV2.exe
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\bin\Debug\WpfAutoOlioV2.pdb
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.csproj.AssemblyReference.cache
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\MainWindow.g.cs
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\App.g.cs
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2_MarkupCompile.cache
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2_MarkupCompile.lref
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\MainWindow.baml
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.g.resources
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.Properties.Resources.resources
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.csproj.GenerateResource.cache
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.csproj.CoreCompileInputs.cache
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.exe
+C:\Users\arinp\source\repos\WpfAutoOlioV2\WpfAutoOlioV2\obj\Debug\WpfAutoOlioV2.pdb

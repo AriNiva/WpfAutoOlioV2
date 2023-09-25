@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfAutoOlioV2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAutoOlioV2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="560" Width="774">
+    <Grid Margin="56,10,-38,-111">
+        <Button x:Name="btnAuto1" Content="Näytä auton tiedot" HorizontalAlignment="Left" Margin="42,307,0,0" VerticalAlignment="Top" Width="162" Height="34" Click="btnAuto1_Click"/>
+        <TextBox x:Name="txtModelAuto1" HorizontalAlignment="Left" Margin="43,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="txtColorAuto1" HorizontalAlignment="Left" Margin="43,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="txtMaxSpeedAuto1" HorizontalAlignment="Left" Margin="43,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Height="21"/>
+        <Label x:Name="lblModelAuto1" Content="Auton malli" HorizontalAlignment="Left" Margin="43,6,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblColorAuto1" Content="Auton väri" HorizontalAlignment="Left" Margin="43,55,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblMaxSpeedAuto1" Content="Huippunopeus" HorizontalAlignment="Left" Margin="43,104,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblHorsepower1" Content="Hevosvoimat" HorizontalAlignment="Left" Margin="42,240,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label x:Name="lblGearCount1" Content="Vaihdelkm" HorizontalAlignment="Left" Margin="140,240,0,0" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="txtHorsepower1" HorizontalAlignment="Left" Margin="42,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="txtGearCount1" HorizontalAlignment="Left" Margin="140,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="btnAuto2" Content="Näytä auton2 tiedot" HorizontalAlignment="Left" Margin="242,307,0,0" VerticalAlignment="Top" Width="159" Height="34" Click="btnAuto2_Click"/>
+        <TextBox x:Name="txtModelAuto2" HorizontalAlignment="Left" Margin="240,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="txtColorAuto2" HorizontalAlignment="Left" Margin="240,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="txtMaxSpeedAuto2" HorizontalAlignment="Left" Margin="242,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Height="21"/>
+        <Label x:Name="lblModelAuto2" Content="Auton malli" HorizontalAlignment="Left" Margin="240,6,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblColorAuto2" Content="Auton väri" HorizontalAlignment="Left" Margin="240,55,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblMaxSpeedAuto2" Content="Huippunopeus" HorizontalAlignment="Left" Margin="240,104,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblHorsepower2" Content="Hevosvoimat" HorizontalAlignment="Left" Margin="240,240,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label x:Name="lblGearCount2" Content="Vaihdelkm" HorizontalAlignment="Left" Margin="337,240,0,0" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="txtHorsepower2" HorizontalAlignment="Left" Margin="240,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txtGearCount2" HorizontalAlignment="Left" Margin="337,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="42,346,0,0" VerticalAlignment="Top" Height="43" FontWeight="Bold" Width="56" Click="btnStart_Click"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="148,346,0,0" VerticalAlignment="Top" Height="43" FontWeight="Bold" Width="56" Click="btnStop_Click"/>
+        <Button x:Name="btnIndicator" Content="" HorizontalAlignment="Left" Margin="104,346,0,0" VerticalAlignment="Top" Height="43" Width="40"/>
+        <Button x:Name="btnStart2" Content="Start" HorizontalAlignment="Left" Margin="242,346,0,0" VerticalAlignment="Top" Height="43" FontWeight="Bold" Width="56" Click="btnStart2_Click"/>
+        <Button x:Name="btnStop2" Content="Stop" HorizontalAlignment="Left" Margin="348,346,0,0" VerticalAlignment="Top" Height="43" FontWeight="Bold" Width="53" Click="btnStop2_Click"/>
+        <Button x:Name="btnIndicator2" Content="" HorizontalAlignment="Left" Margin="303,346,0,0" VerticalAlignment="Top" Height="43" Width="40"/>
+        <TextBox x:Name="txtCurrentSpeed1" HorizontalAlignment="Left" Height="41" Margin="43,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Text="0" Background="White"/>
+        <TextBox x:Name="txtCurrentSpeed2" HorizontalAlignment="Left" Height="41" Margin="242,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Text="0"/>
+        <ComboBox x:Name="cbTransMission1" HorizontalAlignment="Left" Margin="44,212,0,0" VerticalAlignment="Top" Width="160"/>
+        <ComboBox x:Name="cbTransMission2" HorizontalAlignment="Left" Margin="243,212,0,0" VerticalAlignment="Top" Width="158"/>
+        <Button x:Name="BtnAccelerate1" Content="Kiihdytä" HorizontalAlignment="Left" Margin="43,394,0,0" VerticalAlignment="Top" Width="55" Height="30" Click="BtnAccelerate1_Click"/>
+        <Button x:Name="btnBrake1" Content="Jarruta" HorizontalAlignment="Left" Margin="148,394,0,0" VerticalAlignment="Top" Width="56" Height="30" Click="btnBrake1_Click"/>
+        <Button x:Name="btnAccelerate2" Content="Kiihdytä" HorizontalAlignment="Left" Margin="243,394,0,0" VerticalAlignment="Top" Width="55" Height="30" Click="btnAccelerate2_Click"/>
+        <Button x:Name="btnBrake2" Content="Jarruta" HorizontalAlignment="Left" Margin="348,394,0,0" VerticalAlignment="Top" Width="52" Height="30" Click="btnBrake2_Click"/>
+
+    </Grid>
+</Window>
